@@ -1,6 +1,10 @@
-window.onload = function(){
-    console.log('Loaded');
-};
+// window.onload = function(){
+//     console.log('Loaded');
+// };
+
+import { genData } from "./gamedata.js";
+
+const a = genData();
 
 const frame = document.getElementById('frame');
 
