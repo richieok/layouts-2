@@ -1,0 +1,39 @@
+body {
+    background-image: url('/svg/background-2.svg');
+}
+
+#text8418 {
+    stroke: #ff9000;
+    fill: none;
+    stroke-width: 1.139;
+    stroke-dasharray: 798;
+    stroke-dashoffset: 798;
+    animation: hello 6s ease-in forwards;
+}
+
+#bx {
+    stroke: #ff9000;
+    stroke-width: 2;
+    fill: none;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 320;
+    animation: 3s ease-in forwards play;
+}
+
+@keyframes play {
+    0% {
+        stroke-dashoffset: 320;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes hello {
+    0% {
+        stroke-dashoffset: 798;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

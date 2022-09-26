@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#canv {
+    width: 100%;
+    height: calc(99vh - 4em);
+}
+
+.grab {
+    cursor: pointer;
+}
+
+.menu {
+    padding: .8em;
+    background-color: darkgray;
+    height: 4em;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu button {
+    padding: .5em;
+}
+
+.moving {
+    stroke: red;
+}
+
+/* body {
+    width: 100vw;
+    height: 100vh;
+} */
+
+/* .pad {
+    width: 100vw;
+    height: 100vh;
+} */
+
+.mobile {
+    position: absolute;
+    border: 2px solid brown;
+    border-radius: .7em;
+    overflow: hidden;
+}
+
+.mobile p {
+    padding: .5em;
+}
+
+#handle {
+    height: 1.5em;
+    cursor: pointer;
+    background-color: brown;
+}
+
